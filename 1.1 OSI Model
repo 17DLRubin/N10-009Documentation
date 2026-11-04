@@ -1,3 +1,18 @@
 1.1 - OSI Model
 Comptia objective: Explain concepts related to the Open Systems Interconnection (OSI) reference model.
 
+OSI Model
+7 - Application - Generates data for transmit. Processes data recieved
+6 - Presentation - Data representation and encryption
+5 - Session - Interhost communication
+4 - Transport - End to end connections and reliability (TCP/UDP)
+3 - Network - Communication between DIFFERENT networks via IP (routing)
+2 - Data link - Communication between SAME network via MAC addresses (switching)
+1 - Physical - Media, signal, and binary transmissions (cables/wireless)
+Anagram - All People Seem To Need Data Processing
+
+7 - Application
+Serves as the interface between the user and network services. Facilitates the end-user processes and apps to access network services
+Defines protocols for various network services like file transfer, email, and web browsing. Ensuring seamless communications between software apps and the network
+
+6 - Presentation
