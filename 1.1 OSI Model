@@ -47,7 +47,7 @@ Also handles the framing of data packets, including addressing and is divided in
     Acts as an interface between the neworking software in the upper layers and the device hardware in the lower layers, ensuring data integrity and specifying which mechanisms are to be used for addressing and controlling the data link
 Data is represented as FRAMES
 
-1 - Physical (CABLING/HARDWARE)
+1 - Physical (HARDWARE, CABLING, WIRELESS)
 Responsible for the physical transmission of data over network media
 Deals with the hardware aspects of networking, including cabling, switches, and electrical signals/light pulses that carry data
 This layer defines the standards for devices and media to connect and transmit raw bits rather than logical data packets
