@@ -29,7 +29,8 @@ Common protocols include SSH and RDP
 4 - Transport (TCP/UDP)
 Responsible for providing reliable, trasparent transfer of data between end systems. Ensures complete data transfer with mechanisms for error correcting, flow control, and segmentation/de-segmentation of data
 Enables seamless communication between devices by managaing end to end message delivery
-TCP and UDP. Data is represented as SEGMENTS or DATAGRAMS
+TCP data is represented as SEGMENTS
+UDP data is represented as DATAGRAMS
 
 3 - Network (ROUTING/IP)
 Responsible for the logical addressing and routing of packets across DIFFERENT networks.
