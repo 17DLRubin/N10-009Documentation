@@ -7,7 +7,7 @@ OSI Model
 5 - Session - Interhost communication
 4 - Transport - End to end connections and reliability (TCP/UDP)
 3 - Network - Communication between DIFFERENT networks via IP (routing)
-2 - Data link - Communication between SAME network via MAC addresses (switching)
+2 - Data link - Communication within SAME network via MAC addresses (switching)
 1 - Physical - Media, signal, and binary transmissions (cables/wireless)
 Anagram - All People Seem To Need Data Processing
 
