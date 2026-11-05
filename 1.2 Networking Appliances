@@ -1,2 +1,14 @@
 1.2 Networking Appliances
 Comptia objective: Compare and contrast networking appliances, applications, and functions.
+
+Physical and virtual appliances
+Physical - Dedicated hardware devices focused on specifici network functions, offering high performance and reliabilty but at a higher cost and space requirements
+Virtual - Software based solutions that run on VMs, providing similar functions with greater flexability, scaling and cost. But potentially at the expense of raw performance
+
+Routers
+Operates at the Network layer, directing data packets between DIFFERENT networks based on IP addresses
+Uses routing tables to determine the best path for forwarding packets to their destination, connection multiple networks together
+Also provides network security features like firewalls and VPN support
+
+Switches
+Operates at the Data Link layer, forwarding data based on MAC addresses
