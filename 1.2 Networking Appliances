@@ -11,4 +11,63 @@ Uses routing tables to determine the best path for forwarding packets to their d
 Also provides network security features like firewalls and VPN support
 
 Switches
-Operates at the Data Link layer, forwarding data based on MAC addresses
+Operates at the Data Link layer, forwarding data between two physically connected devices based on MAC addresses
+Creates separate collision domains for each port, improving network efficiency by reducing collisions
+Used to connect devices within the SAME network or VLAN
+
+Layer 3 Switches
+Operates at both the Data Link and Network layers. AKA as a multilayer switch
+Can perform routing functions, forwarding data based on IP in addition to switching functions.
+Enables the switch to interconnect DIFFERENT subnets or VLANs within the same device, facilitating efficient network segmentation and routing
+
+Firewalls
+Network security devices that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules
+Crucial for establishing a barrier between secure internal networks and untrusted external networks
+Can be hardware based or software based or a combo of both
+
+IDS (Intrusion Detection System) / IPS (Intrusion Prevention System)
+Monitors network and/or system activities for malicious activities or policy violations
+IDS - Passively monitors and alerts admins of suspicious activity
+IPS - Actively blocks or prevents based on detected anomalies, signatures and policies to protect networks from threats
+
+Load Balancer
+Distributes incoming traffic across multiple servers to ensure no single server becomes overwhelmed, improving the reliability and availabiltiy of apps
+Operates at various layers of the OSI model. Making decisions based on IPs, TCP/UDP ports, or app level content to optimise resource usage, maximize throughput, minimize response time, and avoid overload
+
+Proxy Server
+Acts as an intermediary between a user's device and the internet, recieving requests from clients, forwarding them to the relevant server and returning the servers response to the client
+Can provide additional functionality such as content caching, access control, and filtering, enhancing security and performance
+
+NAS (Network Attached Storage)
+Dedicated file storage device connected to a network, allowing multiple users and clients to retrieve and store data from a centralized location
+Supports a variety of file based protocols such as NFS, SMB/CIFS, and AFP
+Offers scalable and cost effective solutions for businesses and home owners needing to share files across different platforms and devices
+
+SAN (Storage Area Network)
+A dedicated, high speed network taht provides access to consolidated, block level data storage.
+Designed to handle large volumes of data transfers improving availability and performance of apps by offloading storage functions
+
+AP (Access Point)
+A network device that allows wireless devices to connect to a wired network using Wifi or related standards
+Operates at the Data Link layer, bridging the wireless and wired segments of a network. AKA as a WAP (Wireless Access Point)
+
+WLC (Wireless LAN Controller)
+Manages lightweight APs in a network, centralizing control of the wireless LAN
+Simplifies the deployment and management of wireless networks, including config, security policies, and managing guest access. Enhancing the efficiency and security of wireless networks
+
+CDN (Content Delivery Network)
+A globally distributed network of proxy servers and data centers to deliver content rapidly to users
+Caches content like web pages, videos, and images in multiple locations around the world to reduce latency and improve speed regardless of the users location
+(e.g. Google, Youtube...)
+
+VPN (Virtual Private Network)
+Creates a safe and encrypted connection over a less secure network, such as the internet
+Used to establish secure connections between remote users or sites and an org's private network, allowing for secure data transmission across public networks as if the devices were directly connected to the private network
+
+QoS (Quality of Service)
+Refers to the set of tech and policies used to manage and prioritize network traffic to ensure preformance of critical apps and services
+Helps in reducing latency, jitter, and packet loss. Enhancing overall user experience in networks with limited bandwidth
+
+TTL (Time to Live)
+A field in the header of IP packets that specifies the max time or number of hops a packet is allowed to travers before being dropped
+Helps prevent packets from looping indefinitely in a network
