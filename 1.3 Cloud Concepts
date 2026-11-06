@@ -1,2 +1,85 @@
 1.3 - Cloud Concepts
 Comptia objective: Summarize cloud concepts and connectivity options.
+
+Network Functions Virtualization (NFV)
+Involves the decoupling of network functions from hardware and running them as software on VMs or containers. Allows for flexable deployment and management of networking services like firewalls, load balancers, and IDS
+Reduces the need for dedicated hardware and enables dynamic scaling and management. Enhancing resource utilization and reduces cost
+
+VPC (Virtual Private Cloud)
+An isolated network space within a public cloud designed to provide simlar levels of segmentation, control, and security as private data center users can define their own IP range, config subnets, route tables, and network gateways
+Allows orgs to run their cloud resources in a virtual network that they can control, similar to how they would manage a network in their own data center
+
+Network Security Groups
+Controls inboud and outbound traffic to cloud resources within a VPC at the VNIC level offering more granular control
+Acts as a virutal firewall to control traffic based on allowed/denied ports, protocols, and source/destination IP
+Helps implement security at the protocol and port access level, ensuring only legitimate traffic reaches your cloud resources. 
+
+Network Security List
+Also used for managing and securing network traffic in a cloud environment at the packet/subnet level
+Generally provides stateful or stateless traffic filtering on a subnet level, enabling control over traffic between subnets within the same VPC or across different VPCs
+
+NSG vs NSL
+From my understanding, NSGs offer more granular control and behave more similarly to traditional firewalls, allowing admins to have more granular control like enabling/disabling specific ports for specific subnets
+NSLs offer more over-arching controls over multiple subnets instead of being able to specify rules for a specific subnet
+A Security list lets you define a set of security rules that applies to all the VNICs in a subnet whereas Network Security Groups let you define a set of security rules that applies to a group of VNICs of your choice.
+
+Cloud Gateways
+Serves as intermediary devices/services that connect cloud environments with different networks
+Facilitates communication, data transfer, and management between these separate environments. Ensuring users and apps can securely access cloud resources
+
+Internet Gateways
+Serves as a bridge between an org's VPC and the internet
+Enables internet access for the resources within the VPC
+
+NAT Gateway
+Allows instances in a private subnet to connect to the internet or other external services while preventing the internet from initiating a conneciton with those instances or seeing their private IPs
+Crucial for instances that require outbound internet access (e.g. updates) but do not require inbound connections
+
+VPN (Virtual Private Network)
+Creates a safe and encrypted tunnel over a less secure networks (the internet)
+
+Private-Direct Connection to Cloud Provider
+A dedicated network link between an org's on premises infrastructure and a cloud service provider's data center.
+Bypasses the public internet offering more reliable, secure, and faster connectivity for accessing cloud servers
+Ideal for orgs with stringent performance and security requirements
+
+-Deployment Models
+Public
+Provides services over the internet to multple customers/gen pop.
+Infrastructure and resources are owned and operated by the service provider
+Offers scalability and elasticity, reducing the need for orgs to invest in and maintain their own infrastructure
+
+Private
+Dedicated to a single org. Can be self hosted or by a 3rd party provider
+Offers greater control and security. Making it suitable for orgs with strict compliance or other unique needs
+
+Hybrid
+Combines public and private models. Allowing data and apps to be shared
+Provides orgs with flexability, scalibility, and security by enabling them to secure sensitve data while leveraging public cloud resources for non-sensitive operations
+
+-Service Models
+SaaS (Software as a Service)
+Delivers apps over the internet accessible through a web browser
+Allows users to access software apps on a subscription basis, providing convience and cost savings
+(e.g. Netflix, Google Drive, mobile apps...)
+
+IaaS (Infrastructure as a Service)
+Provides virtualized computing resources over the internet, offering oursourced computing infrastructure
+Users can rent servers, storage, and networking capability. Scaling resources up or down as needed. Ideal for orgs looking for scalability and elasticity
+(e.g. AWS, Azure, Google...)
+
+PaaS (Platform as a Service)
+Offers a cloud platform and tools to allow devs to build, test, deploy, and manage apps without worring about underlying infrastructure
+Provides a development environment, app hosting, and deployment platforms. Streamlining the dev process and reduces complexity of managing hardware or software layers
+(e.g. Github, Squarespace...)
+
+-Cloud Terms
+Scalibility
+The capability of a system to handle a growing amount of work or its potential to be enlarged to accomodate that growth
+
+Elasticity
+The ability to auto-scale resources up or down as needed. Crucial for handling varying workloads
+
+Multitenancy
+A software architecture principle where a single instance of software serves multiple tenants/clients.
+User data is isolated and remains invisibile to other users, providing cost effective way for providers to manage a single app across various users
