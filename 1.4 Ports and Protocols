@@ -46,6 +46,6 @@ A component of IPSec used for providing connectionless integrity and data origin
 *INSERT AH EXAMPLE PICTURE HERE
 
 Inline-style: 
-![alt text](https://github.com/17DLRubin/Network-Documentation/blob/main/AH%20in%20transport%20and%20tunnel%20modes.png "Test")
+![alt text](AH in transport and tunnel modes.png)
 
 ESP
