@@ -7,8 +7,8 @@ As these objectives focus more on corporate operations and critical thinking ski
 
 N10-009 Objectives: https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-(4-0)-(1).pdf
 
-Notes compiled from Professor Messer and Andrew Ramdayal
+Notes compiled from Professor Messer and Andrew Ramdayal  
+https://www.youtube.com/@professormesser  
+https://www.youtube.com/@TechnicalInstituteofAmerica  
 
-https://www.youtube.com/@professormesser
-
-https://www.youtube.com/@TechnicalInstituteofAmerica
+Markdown Syntax: https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet
